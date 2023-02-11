@@ -10,13 +10,14 @@ public class Main {
         } else {
             bonus = 0;
         }
-        int totalAmount =deposit + bonus;
+        int totalAmount = deposit + bonus;
 
-        System.out.println("Итоговая сумма на счете: ");
-        System.out.println(totalAmount);
+        System.out.print("Итоговая сумма на счете: ");
+        System.out.print(totalAmount);
         System.out.println("P");
-        System.out.println(" в том чмсле бонус за пополнение: ");
-        System.out.println(bonus);
+
+        System.out.print("В том чмсле бонус за пополнение: ");
+        System.out.print(bonus);
         System.out.println("P");
 
     }
